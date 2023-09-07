@@ -1,11 +1,32 @@
-.body{
-    background-color: #0B0C10;
+/* Basic Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
-.body__h1{
-    color: #66FCF1;
-    text-align: center;
+
+.body {
+  background-color: #0B0C10;
 }
-.body__footer{
-    color: #45A29E;
-    text-align: center;
+.body__h1 {
+  color: #66FCF1;
+  text-align: center;
 }
+
+.footer__p {
+  color: #66FCF1;
+  text-align: center;
+}
+
+.navbar {
+  border: 1px solid whitesmoke;
+}
+.navbar__ul {
+  list-style: none;
+  color: #C5C6C7;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=styles.css.map */

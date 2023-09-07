@@ -1,0 +1,47 @@
+/* Basic Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+// Variables
+$color_primary: #0B0C10;
+$color_primary-text: #66FCF1;
+$color_secondary-text: #C5C6C7;
+
+
+
+
+
+.body{
+    background-color: $color_primary;
+    &__h1{
+        color: $color_primary-text;
+        text-align: center;
+    }
+}
+
+.footer{
+    &__p{
+        color: $color_primary-text;
+        text-align: center;
+    }
+}
+
+.navbar{
+    border: 1px solid whitesmoke;
+
+
+    &__ul{
+        list-style: none;
+        color: $color_secondary-text;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
